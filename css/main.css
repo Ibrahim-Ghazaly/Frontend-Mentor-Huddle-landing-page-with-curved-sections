@@ -100,7 +100,7 @@
 
   /* start header  */
    header{
-    padding: 20px 0;
+    padding: 30px 0;
   } 
   header .container {
     display: flex;
@@ -277,6 +277,8 @@
    /* strat grow together  */
      .grow {
       background-color:hsl(207, 100%, 98%);
+      padding-top: var(--padding);
+      padding-bottom:var(--padding) ;
  
      }
     .grow .container {
@@ -333,6 +335,10 @@
 
    /* end grow together  */
    /* start flowing together  */
+   .flow-conversation {
+     padding-top: var(--padding);
+     padding-bottom: var(--padding);
+   }
    .flow-conversation .container {
      display:flex;
      align-items: center;
@@ -394,6 +400,8 @@
    /* strat users  */
    .users {
     background-color:hsl(207, 100%, 98%);
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
 
    }
   .users .container {
@@ -447,12 +455,15 @@
 
  /* end users  */
  /* strat community  */
+ .build-community {
+   padding-top: var(--padding);
+   padding-bottom: var(--padding);
+ }
  .build-community .container{
    display: flex;
    justify-content: center;
    align-items: center;
    flex-direction: column;
-   margin-bottom: 100px;
  }
  .build-community h2 {
    margin: 0 0 40px 0;
@@ -494,7 +505,8 @@
  /* end community  */
  .footer {
    background-color: var(--Very-Dark-Cyan);
-    padding: 30px ; 
+   padding-top: var(--padding);
+   padding-bottom: 30px ; 
    color:#fff
  }
 
